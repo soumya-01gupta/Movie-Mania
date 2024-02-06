@@ -37,13 +37,19 @@ nav{
     /* margin: 10px; */
 }
 
-.searchBar button{
+.searchBar button {
     width: 80px;
     background-color: orange;
     color: white;
     font-size: 16px;
-    margin-inline:  8px;
-    
+    margin-inline: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s; 
+}
+
+.searchBar button:active {
+    background-color: darkorange; 
+    transform: scale(0.95); 
 }
 
 .card{
